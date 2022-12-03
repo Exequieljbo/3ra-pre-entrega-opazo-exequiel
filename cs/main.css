@@ -1,0 +1,63 @@
+/*extend*/
+.ff, .c2:hover, .c2 {
+  width: 100%;
+  height: 100%;
+}
+
+/*mixin*/
+body {
+  background: linear-gradient(to left, white, #0cb7f2, white, #0cb7f2);
+  height: 100%;
+  width: 100%;
+}
+body h1 {
+  background-color: white;
+  padding: 20px;
+  margin: 40px;
+}
+body h2 {
+  margin: 50px;
+}
+body .fs-2 {
+  margin: 50px;
+}
+
+/*provincias*/
+#provincias {
+  display: grid;
+  gap: 15px;
+  margin: 100px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, 650px);
+}
+
+.c2 {
+  border: 5px solid;
+  border-radius: 20px;
+  border-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  transition: all s;
+}
+
+.c2:hover {
+  transform: rotate(360deg);
+  transition: all 1s;
+  border-color: red;
+}
+
+#map {
+  display: flex;
+  width: 650px;
+  height: 650px;
+  margin-bottom: 50px;
+  transition: all 1s;
+  justify-content: flex-end;
+}
+#map:hover {
+  transition: all 1s;
+  height: 900px;
+  width: 800px;
+}/*# sourceMappingURL=main.css.map */
